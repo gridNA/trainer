@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ComplicationController"
+provides-nominal:
+- "22trainerWatch_Extension22ComplicationControllerC"
+provides-member:
+- ["22trainerWatch_Extension22ComplicationControllerC", ""]
+provides-dynamic-lookup:
+- "getCurrentTimelineEntry"
+- "getLocalizableSampleTemplate"
+- "getPrivacyBehavior"
+- "getSupportedTimeTravelDirections"
+- "getTimelineEndDate"
+- "getTimelineEntries"
+- "getTimelineStartDate"
+depends-top-level:
+- !private "Array"
+- "CLKComplication"
+- "CLKComplicationDataSource"
+- "CLKComplicationPrivacyBehavior"
+- "CLKComplicationTemplate"
+- "CLKComplicationTimeTravelDirections"
+- "CLKComplicationTimelineEntry"
+- "ComplicationController"
+- "Date"
+- "Int"
+- "NSObject"
+- "Void"
+depends-member:
+- ["So25CLKComplicationDataSourceP", ""]
+- ["So25CLKComplicationDataSourceP", "getCurrentTimelineEntry"]
+- ["So25CLKComplicationDataSourceP", "getCurrentTimelineEntryForComplication"]
+- ["So25CLKComplicationDataSourceP", "getLocalizableSampleTemplate"]
+- ["So25CLKComplicationDataSourceP", "getLocalizableSampleTemplateForComplication"]
+- ["So25CLKComplicationDataSourceP", "getNextRequestedUpdateDate"]
+- ["So25CLKComplicationDataSourceP", "getNextRequestedUpdateDateWithHandler"]
+- ["So25CLKComplicationDataSourceP", "getPlaceholderTemplate"]
+- ["So25CLKComplicationDataSourceP", "getPlaceholderTemplateForComplication"]
+- ["So25CLKComplicationDataSourceP", "getPrivacyBehavior"]
+- ["So25CLKComplicationDataSourceP", "getPrivacyBehaviorForComplication"]
+- ["So25CLKComplicationDataSourceP", "getSupportedTimeTravelDirections"]
+- ["So25CLKComplicationDataSourceP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["So25CLKComplicationDataSourceP", "getTimelineAnimationBehavior"]
+- ["So25CLKComplicationDataSourceP", "getTimelineAnimationBehaviorForComplication"]
+- ["So25CLKComplicationDataSourceP", "getTimelineEndDate"]
+- ["So25CLKComplicationDataSourceP", "getTimelineEndDateForComplication"]
+- ["So25CLKComplicationDataSourceP", "getTimelineEntries"]
+- ["So25CLKComplicationDataSourceP", "getTimelineEntriesForComplication"]
+- ["So25CLKComplicationDataSourceP", "getTimelineStartDate"]
+- ["So25CLKComplicationDataSourceP", "getTimelineStartDateForComplication"]
+- ["So25CLKComplicationDataSourceP", "requestedUpdateBudgetExhausted"]
+- ["So25CLKComplicationDataSourceP", "requestedUpdateDidBegin"]
+- !private ["SC30CLKComplicationPrivacyBehaviorO", "showOnLockScreen"]
+- !private ["SC35CLKComplicationTimeTravelDirectionsV", "backward"]
+- !private ["SC35CLKComplicationTimeTravelDirectionsV", "forward"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "getCurrentTimelineEntry"]
+- ["s7CVarArgP", "getCurrentTimelineEntryForComplication"]
+- ["s7CVarArgP", "getLocalizableSampleTemplate"]
+- ["s7CVarArgP", "getLocalizableSampleTemplateForComplication"]
+- ["s7CVarArgP", "getNextRequestedUpdateDate"]
+- ["s7CVarArgP", "getNextRequestedUpdateDateWithHandler"]
+- ["s7CVarArgP", "getPlaceholderTemplate"]
+- ["s7CVarArgP", "getPlaceholderTemplateForComplication"]
+- ["s7CVarArgP", "getPrivacyBehavior"]
+- ["s7CVarArgP", "getPrivacyBehaviorForComplication"]
+- ["s7CVarArgP", "getSupportedTimeTravelDirections"]
+- ["s7CVarArgP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["s7CVarArgP", "getTimelineAnimationBehavior"]
+- ["s7CVarArgP", "getTimelineAnimationBehaviorForComplication"]
+- ["s7CVarArgP", "getTimelineEndDate"]
+- ["s7CVarArgP", "getTimelineEndDateForComplication"]
+- ["s7CVarArgP", "getTimelineEntries"]
+- ["s7CVarArgP", "getTimelineEntriesForComplication"]
+- ["s7CVarArgP", "getTimelineStartDate"]
+- ["s7CVarArgP", "getTimelineStartDateForComplication"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "requestedUpdateBudgetExhausted"]
+- ["s7CVarArgP", "requestedUpdateDidBegin"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "CLKComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "CLKComplicationPrivacyBehavior"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "CLKComplicationTemplate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "CLKComplicationTimeTravelDirections"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "CLKComplicationTimelineEntry"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "Date"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "Int"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "Void"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "deinit"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getCurrentTimelineEntry"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getCurrentTimelineEntryForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getLocalizableSampleTemplate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getLocalizableSampleTemplateForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getNextRequestedUpdateDate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getNextRequestedUpdateDateWithHandler"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getPlaceholderTemplate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getPlaceholderTemplateForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getPrivacyBehavior"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getPrivacyBehaviorForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getSupportedTimeTravelDirections"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getSupportedTimeTravelDirectionsForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineAnimationBehavior"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineAnimationBehaviorForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineEndDate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineEndDateForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineEntries"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineEntriesForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineStartDate"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "getTimelineStartDateForComplication"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "init"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "requestedUpdateBudgetExhausted"]
+- ["22trainerWatch_Extension22ComplicationControllerC", "requestedUpdateDidBegin"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "getCurrentTimelineEntry"]
+- ["s28CustomDebugStringConvertibleP", "getCurrentTimelineEntryForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getLocalizableSampleTemplate"]
+- ["s28CustomDebugStringConvertibleP", "getLocalizableSampleTemplateForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getNextRequestedUpdateDate"]
+- ["s28CustomDebugStringConvertibleP", "getNextRequestedUpdateDateWithHandler"]
+- ["s28CustomDebugStringConvertibleP", "getPlaceholderTemplate"]
+- ["s28CustomDebugStringConvertibleP", "getPlaceholderTemplateForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getPrivacyBehavior"]
+- ["s28CustomDebugStringConvertibleP", "getPrivacyBehaviorForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getSupportedTimeTravelDirections"]
+- ["s28CustomDebugStringConvertibleP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineAnimationBehavior"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineAnimationBehaviorForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineEndDate"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineEndDateForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineEntries"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineEntriesForComplication"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineStartDate"]
+- ["s28CustomDebugStringConvertibleP", "getTimelineStartDateForComplication"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "requestedUpdateBudgetExhausted"]
+- ["s28CustomDebugStringConvertibleP", "requestedUpdateDidBegin"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "getCurrentTimelineEntry"]
+- ["s23CustomStringConvertibleP", "getCurrentTimelineEntryForComplication"]
+- ["s23CustomStringConvertibleP", "getLocalizableSampleTemplate"]
+- ["s23CustomStringConvertibleP", "getLocalizableSampleTemplateForComplication"]
+- ["s23CustomStringConvertibleP", "getNextRequestedUpdateDate"]
+- ["s23CustomStringConvertibleP", "getNextRequestedUpdateDateWithHandler"]
+- ["s23CustomStringConvertibleP", "getPlaceholderTemplate"]
+- ["s23CustomStringConvertibleP", "getPlaceholderTemplateForComplication"]
+- ["s23CustomStringConvertibleP", "getPrivacyBehavior"]
+- ["s23CustomStringConvertibleP", "getPrivacyBehaviorForComplication"]
+- ["s23CustomStringConvertibleP", "getSupportedTimeTravelDirections"]
+- ["s23CustomStringConvertibleP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["s23CustomStringConvertibleP", "getTimelineAnimationBehavior"]
+- ["s23CustomStringConvertibleP", "getTimelineAnimationBehaviorForComplication"]
+- ["s23CustomStringConvertibleP", "getTimelineEndDate"]
+- ["s23CustomStringConvertibleP", "getTimelineEndDateForComplication"]
+- ["s23CustomStringConvertibleP", "getTimelineEntries"]
+- ["s23CustomStringConvertibleP", "getTimelineEntriesForComplication"]
+- ["s23CustomStringConvertibleP", "getTimelineStartDate"]
+- ["s23CustomStringConvertibleP", "getTimelineStartDateForComplication"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "requestedUpdateBudgetExhausted"]
+- ["s23CustomStringConvertibleP", "requestedUpdateDidBegin"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "backward"]
+- !private ["s9EquatableP", "forward"]
+- ["s9EquatableP", "getCurrentTimelineEntry"]
+- ["s9EquatableP", "getCurrentTimelineEntryForComplication"]
+- ["s9EquatableP", "getLocalizableSampleTemplate"]
+- ["s9EquatableP", "getLocalizableSampleTemplateForComplication"]
+- ["s9EquatableP", "getNextRequestedUpdateDate"]
+- ["s9EquatableP", "getNextRequestedUpdateDateWithHandler"]
+- ["s9EquatableP", "getPlaceholderTemplate"]
+- ["s9EquatableP", "getPlaceholderTemplateForComplication"]
+- ["s9EquatableP", "getPrivacyBehavior"]
+- ["s9EquatableP", "getPrivacyBehaviorForComplication"]
+- ["s9EquatableP", "getSupportedTimeTravelDirections"]
+- ["s9EquatableP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["s9EquatableP", "getTimelineAnimationBehavior"]
+- ["s9EquatableP", "getTimelineAnimationBehaviorForComplication"]
+- ["s9EquatableP", "getTimelineEndDate"]
+- ["s9EquatableP", "getTimelineEndDateForComplication"]
+- ["s9EquatableP", "getTimelineEntries"]
+- ["s9EquatableP", "getTimelineEntriesForComplication"]
+- ["s9EquatableP", "getTimelineStartDate"]
+- ["s9EquatableP", "getTimelineStartDateForComplication"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "requestedUpdateBudgetExhausted"]
+- ["s9EquatableP", "requestedUpdateDidBegin"]
+- !private ["s9EquatableP", "showOnLockScreen"]
+- !private ["s25ExpressibleByArrayLiteralP", "backward"]
+- !private ["s25ExpressibleByArrayLiteralP", "forward"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "getCurrentTimelineEntry"]
+- ["s8HashableP", "getCurrentTimelineEntryForComplication"]
+- ["s8HashableP", "getLocalizableSampleTemplate"]
+- ["s8HashableP", "getLocalizableSampleTemplateForComplication"]
+- ["s8HashableP", "getNextRequestedUpdateDate"]
+- ["s8HashableP", "getNextRequestedUpdateDateWithHandler"]
+- ["s8HashableP", "getPlaceholderTemplate"]
+- ["s8HashableP", "getPlaceholderTemplateForComplication"]
+- ["s8HashableP", "getPrivacyBehavior"]
+- ["s8HashableP", "getPrivacyBehaviorForComplication"]
+- ["s8HashableP", "getSupportedTimeTravelDirections"]
+- ["s8HashableP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["s8HashableP", "getTimelineAnimationBehavior"]
+- ["s8HashableP", "getTimelineAnimationBehaviorForComplication"]
+- ["s8HashableP", "getTimelineEndDate"]
+- ["s8HashableP", "getTimelineEndDateForComplication"]
+- ["s8HashableP", "getTimelineEntries"]
+- ["s8HashableP", "getTimelineEntriesForComplication"]
+- ["s8HashableP", "getTimelineStartDate"]
+- ["s8HashableP", "getTimelineStartDateForComplication"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "requestedUpdateBudgetExhausted"]
+- ["s8HashableP", "requestedUpdateDidBegin"]
+- !private ["s8HashableP", "showOnLockScreen"]
+- ["So8NSObjectC", "CLKComplication"]
+- ["So8NSObjectC", "CLKComplicationPrivacyBehavior"]
+- ["So8NSObjectC", "CLKComplicationTemplate"]
+- ["So8NSObjectC", "CLKComplicationTimeTravelDirections"]
+- ["So8NSObjectC", "CLKComplicationTimelineEntry"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "getCurrentTimelineEntry"]
+- ["So8NSObjectC", "getCurrentTimelineEntryForComplication"]
+- ["So8NSObjectC", "getLocalizableSampleTemplate"]
+- ["So8NSObjectC", "getLocalizableSampleTemplateForComplication"]
+- ["So8NSObjectC", "getNextRequestedUpdateDate"]
+- ["So8NSObjectC", "getNextRequestedUpdateDateWithHandler"]
+- ["So8NSObjectC", "getPlaceholderTemplate"]
+- ["So8NSObjectC", "getPlaceholderTemplateForComplication"]
+- ["So8NSObjectC", "getPrivacyBehavior"]
+- ["So8NSObjectC", "getPrivacyBehaviorForComplication"]
+- ["So8NSObjectC", "getSupportedTimeTravelDirections"]
+- ["So8NSObjectC", "getSupportedTimeTravelDirectionsForComplication"]
+- ["So8NSObjectC", "getTimelineAnimationBehavior"]
+- ["So8NSObjectC", "getTimelineAnimationBehaviorForComplication"]
+- ["So8NSObjectC", "getTimelineEndDate"]
+- ["So8NSObjectC", "getTimelineEndDateForComplication"]
+- ["So8NSObjectC", "getTimelineEntries"]
+- ["So8NSObjectC", "getTimelineEntriesForComplication"]
+- ["So8NSObjectC", "getTimelineStartDate"]
+- ["So8NSObjectC", "getTimelineStartDateForComplication"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "requestedUpdateBudgetExhausted"]
+- ["So8NSObjectC", "requestedUpdateDidBegin"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "getCurrentTimelineEntry"]
+- ["So16NSObjectProtocolP", "getCurrentTimelineEntryForComplication"]
+- ["So16NSObjectProtocolP", "getLocalizableSampleTemplate"]
+- ["So16NSObjectProtocolP", "getLocalizableSampleTemplateForComplication"]
+- ["So16NSObjectProtocolP", "getNextRequestedUpdateDate"]
+- ["So16NSObjectProtocolP", "getNextRequestedUpdateDateWithHandler"]
+- ["So16NSObjectProtocolP", "getPlaceholderTemplate"]
+- ["So16NSObjectProtocolP", "getPlaceholderTemplateForComplication"]
+- ["So16NSObjectProtocolP", "getPrivacyBehavior"]
+- ["So16NSObjectProtocolP", "getPrivacyBehaviorForComplication"]
+- ["So16NSObjectProtocolP", "getSupportedTimeTravelDirections"]
+- ["So16NSObjectProtocolP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["So16NSObjectProtocolP", "getTimelineAnimationBehavior"]
+- ["So16NSObjectProtocolP", "getTimelineAnimationBehaviorForComplication"]
+- ["So16NSObjectProtocolP", "getTimelineEndDate"]
+- ["So16NSObjectProtocolP", "getTimelineEndDateForComplication"]
+- ["So16NSObjectProtocolP", "getTimelineEntries"]
+- ["So16NSObjectProtocolP", "getTimelineEntriesForComplication"]
+- ["So16NSObjectProtocolP", "getTimelineStartDate"]
+- ["So16NSObjectProtocolP", "getTimelineStartDateForComplication"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "requestedUpdateBudgetExhausted"]
+- ["So16NSObjectProtocolP", "requestedUpdateDidBegin"]
+- !private ["s9OptionSetP", "backward"]
+- !private ["s9OptionSetP", "forward"]
+- !private ["s16RawRepresentableP", "backward"]
+- !private ["s16RawRepresentableP", "forward"]
+- !private ["s16RawRepresentableP", "showOnLockScreen"]
+- !private ["s10SetAlgebraP", "backward"]
+- !private ["s10SetAlgebraP", "forward"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getCurrentTimelineEntry"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getCurrentTimelineEntryForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getLocalizableSampleTemplate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getLocalizableSampleTemplateForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getNextRequestedUpdateDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getNextRequestedUpdateDateWithHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getPlaceholderTemplate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getPlaceholderTemplateForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getPrivacyBehavior"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getPrivacyBehaviorForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSupportedTimeTravelDirections"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSupportedTimeTravelDirectionsForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineAnimationBehavior"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineAnimationBehaviorForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineEndDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineEndDateForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineEntries"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineEntriesForComplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineStartDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTimelineStartDateForComplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestedUpdateBudgetExhausted"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestedUpdateDidBegin"]
+depends-nominal:
+- "So25CLKComplicationDataSourceP"
+- !private "SC30CLKComplicationPrivacyBehaviorO"
+- !private "SC35CLKComplicationTimeTravelDirectionsV"
+- "s7CVarArgP"
+- "22trainerWatch_Extension22ComplicationControllerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "s16RawRepresentableP"
+- !private "s10SetAlgebraP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/HomeKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator4.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "681434276a94f29094923713e1ab8925"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "8e276a8e28380e70e390f1b0c9ccb80b"
+build_time: [1529932102, 635943000]
+inputs:
+  "/Users/kgridina/trainer/trainer/SecondViewController.swift": [1529932097, 0]
+  "/Users/kgridina/trainer/trainer/AppDelegate.swift": [1529932097, 0]
+  "/Users/kgridina/trainer/trainer/FirstViewController.swift": [1529932097, 0]

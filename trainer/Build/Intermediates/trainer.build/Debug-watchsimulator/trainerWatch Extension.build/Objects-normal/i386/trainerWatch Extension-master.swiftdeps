@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "57bbb2881355cf6e372cbbc725506219"
+build_time: [1529932168, 263139000]
+inputs:
+  "/Users/kgridina/trainer/trainerWatch Extension/NotificationController.swift": [1529932166, 0]
+  "/Users/kgridina/trainer/trainerWatch Extension/ComplicationController.swift": [1529932166, 0]
+  "/Users/kgridina/trainer/trainerWatch Extension/ExtensionDelegate.swift": [1529932166, 0]
+  "/Users/kgridina/trainer/trainerWatch Extension/InterfaceController.swift": [1529932166, 0]
